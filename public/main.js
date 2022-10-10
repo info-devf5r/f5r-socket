@@ -225,7 +225,7 @@ $(function() {
   socket.on('login', (data) => {
     connected = true;
     // اعرض رسالة الترحيب
-    const message = 'Welcome to Socket.IO Chat – ';
+    const message = ' – حللت أهلاً .. ووطئت سهلاً ..';
     log(message, {
       prepend: true
     });

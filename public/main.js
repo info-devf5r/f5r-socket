@@ -225,16 +225,7 @@ $(function() {
   socket.on('login', (data) => {
     connected = true;
     // اعرض رسالة الترحيب
-    const message = '<br />
-أهلاً وسهلاَ بك  ..<br />
-<br />
-حللت أهلاً .. ووطئت سهلاً ..<br />
-ياهلا بك بين اأخواتك ..<br />
-ان شاء الله تسمتع معــانا ..<br />
-وتفيد وتستفيد معانـا ..<br />
-وبانتظار مشاركاتـك وابداعاتـك ..<br />
-ســعداء بتـواجـدك معانا .. وحيـاك الله<br />
-<br />';
+    const message = 'Welcome to Socket.IO Chat – ';
     log(message, {
       prepend: true
     });
